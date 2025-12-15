@@ -1,5 +1,6 @@
 import { Mail, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Navigation() {
   return (
@@ -10,22 +11,22 @@ export function Navigation() {
         </div>
 
         <div className="hidden md:flex items-center gap-6 flex-1 justify-center">
-          <a href="#home" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link href="#home" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Home
-          </a>
-          <a href="#about" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          </Link>
+          <Link href="#about" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             About
-          </a>
-          <a href="#portfolio" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          </Link>
+          <Link href="#portfolio" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Portfolio
-          </a>
+          </Link>
           <button className="flex items-center gap-1 text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Projects
             <ChevronDown className="w-4 h-4" />
           </button>
-          <a href="#contact" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link href="#contact" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Contact
-          </a>
+          </Link>
         </div>
 
         <Button className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">

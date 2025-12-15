@@ -21,7 +21,7 @@ export default function Home() {
       <ExperienceSection />
       {/*   <TestimonialsSection />*/}
       <ArticlesSection />
-      {/*  <Footer />*/}
+      {/* <Footer />*/}
     </main>
   )
 }
