@@ -47,6 +47,28 @@ export function PortfolioSection() {
       illustration: "/images/Screenshot (46).png",
       href: "https://dspace1.netlify.app",
     },
+     {
+      title: "Asguard — AI-Powered Fraud Detection",
+      description:
+        "Asguard is a real-time fraud detection engine combining rule-based scoring with AI-enhanced analysis. It provides an API for transaction analysis and a configurable risk engine with AI integration. Key features include:• Real-time transaction scoring with customizable rules• AI-enhanced analysis for complex fraud patterns• API for seamless integration with existing systems• Configurable risk engine for tailored fraud preventionMy goal was to create a powerful yet flexible fraud detection solution that leverages both traditional rule-based methods and modern AI techniques to provide comprehensive protection against fraudulent activities.",
+      tag: "Backend API Development, Go/Golang, AI Integration, Groq cloud OpenSource",
+      logo: "/images/venture-logo.svg",
+      bgColor: "bg-[#2F81F7]",
+      // Make sure each item has a unique image path here to show different images per item
+      illustration: "/images/asguard.png",
+      href: "https://github.com/org-cyber/asguard",
+    },
+      {
+      title: "Azeru - Enterprise Brain",
+      description:
+        "Azeru is a cutting-edge, AI-driven document intelligence platform designed to transform your PDFs into actionable knowledge. By leveraging advanced Retrieval-Augmented Generation (RAG) techniques, Azeru provides precise answers based on your private documents, making it an indispensable tool for enterprises and professionals. Key features include:• AI-Powered Document Understanding: Azeru uses state-of-the-art AI models to comprehend and analyze the content of your PDFs, extracting key information and insights.• Retrieval-Augmented Generation (RAG): By combining retrieval techniques with generative AI, Azeru delivers accurate and contextually relevant answers to your queries based on the information contained in your documents.• User-Friendly Interface: With a sleek and intuitive interface, Azeru allows users to easily upload their PDFs and interact with the platform to get the information they need quickly and efficiently.My goal was to create a powerful yet flexible document intelligence solution that leverages both traditional rule-based methods and modern AI techniques to provide comprehensive insights from your private documents.",
+      tag: "RAG Pipeline, RAG chatbot Go/Golang, AI Integration, SQLlite, ChromaDB Groq cloud OpenSource",
+      logo: "/images/venture-logo.svg",
+      bgColor: "bg-[#2F81F7]",
+      // Make sure each item has a unique image path here to show different images per item
+      illustration: "/images/azeru.png",
+      href: "https://github.com/org-cyber/azeru",
+    },
   ]
 
   return (
